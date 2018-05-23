@@ -16,6 +16,12 @@
  - Apache Web Server
  - Xampp 7.1
 
+## Import the Database
+> php artisan migrate
+
+## Making the Migration
+> php artisan make:migration create_users_table --create=users
+
 # Result by postman
 
 ### Register
@@ -27,3 +33,5 @@
 
 ### Login false
 ![Test Gagal](https://cdn1.imggmi.com/uploads/2018/5/23/bcd0a5993108132a6604d435f124b210-full.png)
+
+
