@@ -2,10 +2,16 @@
 
 ## **Requirement**
 
-1. PHP >= 5.6.4
+1. PHP >= 7.1
 2. OpenSSL PHP Extension
 3. PDO PHP Extension
 4. Mbstring PHP Extension
+
+## **Problem**
+> php artisan migratePHP Warning:  require_once(/home/arya/Documents/API/Login-Register-Api/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /home/arya/Documents/API/Login-Register-Api/bootstrap/app.php on line 3
+PHP Fatal error:  require_once(): Failed opening required '/home/arya/Documents/API/Login-Register-Api/bootstrap/../vendor/autoload.php' (include_path='.:/usr/share/php') in /home/arya/Documents/API/Login-Register-Api/bootstrap/app.php on line 3
+
+-solution : composer update
 
 #Technology
  - Laravel Lumen
